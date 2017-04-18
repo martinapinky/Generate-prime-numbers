@@ -4,7 +4,7 @@ import generate_prime_numbers
 
 class TestPrimeGenerator(TestCase):
     def setUp(self):
-        self.prime_gen = generate_prime_numbers.PrimeGenerator(1)
+        self.prime_gen = generate_prime_numbers(1)
 
     def test_is_integer(self):
         self.assertIsInstance(self.prime_gen.n, int, msg="Value not an integer")
