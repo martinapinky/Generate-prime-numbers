@@ -16,4 +16,4 @@ def generateprimenumbers(n):
 
     return primenumbers
 
-print(generateprimenumbers(9))
+print(generateprimenumbers(10))
